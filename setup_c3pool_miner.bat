@@ -145,20 +145,20 @@ if [%EXP_MONERO_HASHRATE%] == [] (
   exit 
 )
 
-if %EXP_MONERO_HASHRATE% gtr 208400  ( set PORT=4444 & goto PORT_OK )
-if %EXP_MONERO_HASHRATE% gtr 102400  ( set PORT=4444 & goto PORT_OK )
-if %EXP_MONERO_HASHRATE% gtr 51200  ( set PORT=4444 & goto PORT_OK )
-if %EXP_MONERO_HASHRATE% gtr 25600  ( set PORT=4444 & goto PORT_OK )
-if %EXP_MONERO_HASHRATE% gtr 12800  ( set PORT=4444 & goto PORT_OK )
-if %EXP_MONERO_HASHRATE% gtr 6400  ( set PORT=4444 & goto PORT_OK )
-if %EXP_MONERO_HASHRATE% gtr 3200  ( set PORT=4444 & goto PORT_OK )
-if %EXP_MONERO_HASHRATE% gtr 1600  ( set PORT=4444 & goto PORT_OK )
-if %EXP_MONERO_HASHRATE% gtr 800   ( set PORT=4444 & goto PORT_OK )
-if %EXP_MONERO_HASHRATE% gtr 400   ( set PORT=4444 & goto PORT_OK )
-if %EXP_MONERO_HASHRATE% gtr 200   ( set PORT=4444 & goto PORT_OK )
-if %EXP_MONERO_HASHRATE% gtr 100   ( set PORT=4444 & goto PORT_OK )
-if %EXP_MONERO_HASHRATE% gtr  50   ( set PORT=4444 & goto PORT_OK )
-set PORT=4444
+if %EXP_MONERO_HASHRATE% gtr 208400  ( set PORT=3333 & goto PORT_OK )
+if %EXP_MONERO_HASHRATE% gtr 102400  ( set PORT=3333 & goto PORT_OK )
+if %EXP_MONERO_HASHRATE% gtr 51200  ( set PORT=3333 & goto PORT_OK )
+if %EXP_MONERO_HASHRATE% gtr 25600  ( set PORT=3333 & goto PORT_OK )
+if %EXP_MONERO_HASHRATE% gtr 12800  ( set PORT=3333 & goto PORT_OK )
+if %EXP_MONERO_HASHRATE% gtr 6400  ( set PORT=3333 & goto PORT_OK )
+if %EXP_MONERO_HASHRATE% gtr 3200  ( set PORT=3333 & goto PORT_OK )
+if %EXP_MONERO_HASHRATE% gtr 1600  ( set PORT=3333 & goto PORT_OK )
+if %EXP_MONERO_HASHRATE% gtr 800   ( set PORT=3333 & goto PORT_OK )
+if %EXP_MONERO_HASHRATE% gtr 400   ( set PORT=3333 & goto PORT_OK )
+if %EXP_MONERO_HASHRATE% gtr 200   ( set PORT=3333 & goto PORT_OK )
+if %EXP_MONERO_HASHRATE% gtr 100   ( set PORT=3333 & goto PORT_OK )
+if %EXP_MONERO_HASHRATE% gtr  50   ( set PORT=3333 & goto PORT_OK )
+set PORT=3333
 
 :PORT_OK
 
